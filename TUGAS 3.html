@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TUGAS 3</title>
+</head>
+<body background="gambar/bglight.png">
+	<form>
+		<!-- Identitas -->
+		Nama : <input type="text" name="nama"><br>
+		Jenis Kelamin :<br> 
+		<input type="radio" name="gender" value="Laki-Laki">
+			<label for="Laki-Laki">Laki-Laki</label><br>
+		<input type="radio" name="gender" value="Perempuan">
+			<label for="Perempuan">Perempuan</label><br>
+
+			<!-- Kontak -->
+			No. WhatsApp : <input type="text" name="nomer WhatsApp"><br>
+			E-mail : <input type="text" name="email"><br>
+
+				<!-- Peminatan -->
+				Pilih UKM yang Anda Minati :<br>
+				<input type="checkbox" name="UKM" value="triple c">
+					<label for="triple c">Creative Computer Club (Triple-C)</label><br>
+				<input type="checkbox" name="UKM" value="dakwah">
+					<label for="dakwah">Lembaga Dakwah Kampus Majelis Kajian Mahasiswa Islam (LDK-MKMI)</label><br>
+				<input type="checkbox" name="UKM" value="nanggala">
+					<label for="nanggala">Seni Nanggala</label><br>
+				<input type="checkbox" name="UKM" value="musik">
+					<label for="musik">B-Sing</label><br>
+				<input type="checkbox" name="UKM" value="uk3">
+					<label for="uk3">Unit Kegiatan Kerohanian Kristen (UK3)</label><br>
+				<input type="checkbox" name="UKM" value="bela diri"> 
+					<label for="bela diri">Seni Bela Diri Silat Tiga Serangkai (SBDSTS)</label><br>
+
+					<!-- Komentar -->
+					Komentar :<br>
+					<textarea name="Komentar" rows="10" cols="30">Saya Mahasiswa Baru Universitas Trunojoyo Madura Tahun 2019</textarea><br>
+
+						<!-- Button -->
+						<button type="button" onclick="alert('Data Anda Telah Disimpan')">Simpan</button>
+	</form>
+</body>
+</html>
